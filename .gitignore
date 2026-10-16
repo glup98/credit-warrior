@@ -1,0 +1,53 @@
+# Environment variables & secrets
+.env
+.env.*
+.env*.local
+!.env.example
+
+# Node & Frontend build
+node_modules/
+.next/
+out/
+build/
+dist/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+.vercel/
+
+# Python & Backend virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Testing, type checking & linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.tsbuildinfo
+next-env.d.ts
+
+# Databases & local logs
+*.db
+*.sqlite3
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MCP & Local agent configs with credentials
+**/mcp_config.json
+.atl/
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.pem
